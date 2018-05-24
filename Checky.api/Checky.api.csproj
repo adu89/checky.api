@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Model\" />
+    <Folder Include="Database\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="View\" />
+    <Folder Include="Service\" />
+    <Folder Include="Service\PaymentService\" />
+    <Folder Include="Service\EmailService\" />
+    <Folder Include="Service\StorageService\" />
+    <Folder Include="Service\PinService\" />
+    <Folder Include="ViewBuilder\" />
+    <Folder Include="ViewBuilder\User\" />
+    <Folder Include="Service\EmailService\New Folder\" />
+    <Folder Include="Service\PasswordService\" />
+    <Folder Include="ViewBuilder\Device\" />
+    <Folder Include="ViewBuilder\Inventory\" />
+    <Folder Include="ViewBuilder\InventoryItem\" />
+    <Folder Include="ViewBuilder\Organization\" />
+    <Folder Include="ViewBuilder\Item\" />
+    <Folder Include="ViewBuilder\Vendor\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.0" />
+    <PackageReference Include="OpenIddict" Version="2.0.0-*" />
+    <PackageReference Include="OpenIddict.EntityFrameworkCore" Version="2.0.0-*" />
+    <PackageReference Include="OpenIddict.Mvc" Version="2.0.0-*" />
+    <PackageReference Include="AspNet.Security.OAuth.Validation" Version="2.0.0-*" />
+    <PackageReference Include="SendGrid" Version="9.9.0" />
+    <PackageReference Include="Stripe.net" Version="11.7.1" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180222133534_initial.cs" />
+  </ItemGroup>
+</Project>

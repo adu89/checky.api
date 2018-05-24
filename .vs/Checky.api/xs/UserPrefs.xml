@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{357D09F8-602F-4FCE-8117-BE1555F18DDD}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Checky.api/Controllers/AuthController.cs">
+    <Files>
+      <File FileName="Checky.api/Database/CheckyContext.cs" Line="120" Column="42" />
+      <File FileName="Checky.api/Startup.cs" Line="74" Column="17" />
+      <File FileName="Checky.api/Migrations/20180420032141_MIG6.cs" Line="1" Column="1" />
+      <File FileName="Checky.api/Controllers/AuthController.cs" Line="54" Column="31" />
+      <File FileName="Checky.api/Controllers/DevicesController.cs" Line="78" Column="1" />
+      <File FileName="Checky.api/Middleware/ExceptionHandlingMiddleware.cs" Line="23" Column="1" />
+      <File FileName="Checky.api/Controllers/BaseController.cs" Line="22" Column="52" />
+      <File FileName="Checky.api/Controllers/UsersController.cs" Line="25" Column="10" />
+      <File FileName="Checky.api/Controllers/InventoryItemsController.cs" Line="25" Column="13" />
+      <File FileName="Checky.api/Controllers/OrdersController.cs" Line="27" Column="9" />
+      <File FileName="Checky.api/ViewBuilder/Device/DeviceViewBuilder.cs" Line="20" Column="1" />
+      <File FileName="Checky.api/ViewBuilder/Inventory/InventoryViewBuilder.cs" Line="22" Column="1" />
+      <File FileName="Checky.api/ViewBuilder/Organization/OrganizationViewBuilder.cs" Line="22" Column="1" />
+      <File FileName="Checky.api/View/Organization.cs" Line="13" Column="1" />
+      <File FileName="Checky.api/ViewBuilder/Inventory/IInventoryViewBuilder.cs" Line="1" Column="1" />
+      <File FileName="Checky.api/Model/Client.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Checky.api/Model/User.cs" Line="19" Column="1" NotebookId="1" />
+      <File FileName="Checky.api/Model/UserRole.cs" Line="9" Column="15" NotebookId="1" />
+      <File FileName="Checky.api/Model/Vendor.cs" Line="12" Column="16" NotebookId="1" />
+      <File FileName="Checky.api/Model/OrganizationItem.cs" Line="10" Column="9" NotebookId="1" />
+      <File FileName="Checky.api/Model/OrderItem.cs" Line="9" Column="9" NotebookId="1" />
+      <File FileName="Checky.api/Model/InventoryItem.cs" Line="16" Column="13" NotebookId="1" />
+      <File FileName="Checky.api/Migrations/20180420123153_MIG8.cs" Line="67" Column="41" NotebookId="1" />
+      <File FileName="Checky.api/Model/Organization.cs" Line="14" Column="30" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/Controllers/UsersController.cs" relfile="Checky.api/Controllers/UsersController.cs" line="69" column="13" />
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/Controllers/UsersController.cs" relfile="Checky.api/Controllers/UsersController.cs" line="35" column="1" />
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/Controllers/DevicesController.cs" relfile="Checky.api/Controllers/DevicesController.cs" line="51" column="1" />
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/Controllers/UsersController.cs" relfile="Checky.api/Controllers/UsersController.cs" line="88" column="1" />
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/Controllers/DevicesController.cs" relfile="Checky.api/Controllers/DevicesController.cs" line="69" column="1" />
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/Controllers/DevicesController.cs" relfile="Checky.api/Controllers/DevicesController.cs" line="78" column="1" />
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/ViewBuilder/Device/DeviceViewBuilder.cs" relfile="Checky.api/ViewBuilder/Device/DeviceViewBuilder.cs" line="21" column="1" />
+      <Breakpoint file="/Users/Andrew/Projects/Checky.api/Checky.api/ViewBuilder/Inventory/InventoryViewBuilder.cs" relfile="Checky.api/ViewBuilder/Inventory/InventoryViewBuilder.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Checky.api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
